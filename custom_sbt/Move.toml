@@ -1,0 +1,12 @@
+[package]
+name = "custom_sbt"
+version = "0.0.1"
+authors = ["Your Name <your@email.com>"]
+
+[addresses]
+custom_sbt = "0xbe2bd85369e1d610bbcd43592515ec4215a1cb30c6358ed84ca0e59d354eb362"
+std = "0x1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "devnet" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects", rev = "devnet" }
