@@ -1,6 +1,6 @@
 # 🏆 Aptos Soulbound Token (SBT) Contract
 
-A decentralized achievement and credential system built on Aptos blockchain using Token V2 (Token Objects) framework. This contract enables **direct minting of non-transferable NFTs** to any address without requiring recipient setup.
+A decentralized and credential system built on Aptos blockchain using Token V2 (Token Objects) framework. This contract enables **direct minting of non-transferable NFTs** to any address without requiring recipient setup.
 
 [![Aptos](https://img.shields.io/badge/Aptos-Token%20V2-blue)](https://aptos.dev/)
 [![Move](https://img.shields.io/badge/Move-Language-orange)](https://move-language.github.io/move/)
@@ -160,7 +160,7 @@ aptos move view \
 ### Example 1: Academic Credentials
 
 ```bash
-# Deploy for university diplomas
+# Deploy for university degrees
 aptos move run \
   --function-id YOUR_ADDRESS::sbt::mint_sbt \
   --args address:0xgraduate123... \
